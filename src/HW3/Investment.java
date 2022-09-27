@@ -44,7 +44,7 @@ int n;
         if (kbd.hasNextInt()) {
             t = kbd.nextInt();
             if( t<=0) {
-                System.out.println("Error:please enter an integer larger than 0. You entered "+t);
+                System.out.println("Error: please enter an integer larger than 0. You entered "+t);
                 return;
             }
         }
@@ -57,7 +57,7 @@ int n;
         if (kbd.hasNextInt()) {
             n= kbd.nextInt();
             if( n<=0) {
-                System.out.println("Error:please enter an integer larger than 0. You entered "+n);
+                System.out.println("Error: please enter an integer larger than 0. You entered "+n);
                 return;
             }
         }
