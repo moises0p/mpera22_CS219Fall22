@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Exam1 {
 
 
-    public static int counter (int x){
-        int tracker=0;
-        int checker=x%10;
-        while (x>0){
-           if( checker>2 && checker<7){
-               tracker++;
-           }
-           x=x/10;
-           checker=x%10;
+    public static int counter(int x) {
+        int tracker = 0;
+        int checker = x % 10;
+        while (x > 0) {
+            if (checker > 2 && checker < 7) {
+                tracker++;
+            }
+            x = x / 10;
+            checker = x % 10;
         }
 
 
@@ -21,13 +21,11 @@ public class Exam1 {
     }
 
 
-
-
-    public static void main (String[]args){
+    public static void main(String[] args) {
 
         Scanner kbd = new Scanner(System.in);
-        int n=0;
-        boolean valid=false;
+        int n = 0;
+        boolean valid = false;
 
 
         while (!valid) {
@@ -47,11 +45,9 @@ public class Exam1 {
             }
         }
 
-System.out.println(counter(n));
+        System.out.println(counter(n));
 
     }
-
-
 
 
 }
